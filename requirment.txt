@@ -1,0 +1,52 @@
+# 🎓 Student Risk Monitoring System
+
+## Problem
+Many students in government schools drop out due to low attendance, poor academic performance, and socio-economic factors.
+
+## Solution
+This project builds an AI-powered Early Warning System that helps teachers identify students at risk of dropping out and suggests interventions.
+
+## Features
+- Risk score calculation
+- AI dropout prediction
+- Government policy recommendations
+- Parent communication generator
+- Teacher intervention tracking
+- Student progress comparison dashboard
+
+## Technologies Used
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- Scikit-learn
+
+## Installation
+
+Clone the repository
+
+git clone https://github.com/your-repo-name
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the application
+
+streamlit run app.py
+
+## Impact
+Helps schools identify at-risk students early and provide timely support to prevent dropouts.
+
+streamlit>=1.30.0
+pandas>=2.0.0
+plotly>=5.18.0
+scikit-learn>=1.3.0
+
+student-risk-monitoring-system
+│
+├── app.py
+├── students.csv
+├── intervention.csv
+├── requirements.txt
+└── README.md
